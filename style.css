@@ -1,5 +1,5 @@
 body {
-    background: #FFB6B9;    
+    background-color: #FFB6B9;
 }
 #body-box {
     text-align: center;
@@ -14,7 +14,7 @@ body {
     color: #3a7372;
     border-radius: 8px;
     background: #BBDED6;
-    border: 3px solid #61C0BF; 
+    border: 3px solid #61C0BF;
 }
 #search-form:focus {
     outline: none;
@@ -36,15 +36,15 @@ body {
 
 }
 .btn-custom:active {
-    background-color: #61C0BF; 
+    background-color: #61C0BF;
     color: #FAE3D9;
 }
 .btn-custom:focus {
-    background-color: #61C0BF; 
+    background-color: #61C0BF;
     color: #3a7372;
 }
 .btn-custom:active:focus {
-    background-color: #61C0BF; 
+    background-color: #61C0BF;
     color: #FAE3D9;
 }
 li{
