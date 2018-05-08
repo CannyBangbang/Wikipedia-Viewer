@@ -1,5 +1,46 @@
 body {
     background-color: #FFB6B9;
+    font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 1.2em;
+    }
+    .btn {
+        font-size:12px;
+        height: 22px;
+        padding: 2px 4px 2px 4px;
+      }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 1.4em;
+    }
+    .btn {
+        font-size:14px;
+        height: 28px;
+        padding: 2px 4px 2px 4px;
+      }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1.6em;
+    }
+    .btn {
+        font-size:18px;
+        height: 33px;
+        padding: 3px 6px 3px 6px;
+      }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.8em;
+    }
+    .btn {
+        font-size:20px;
+        height: 40px;
+        padding: 3px 6px 3px 6px;
+      }
 }
 #body-box {
     text-align: center;
@@ -9,7 +50,6 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0 0 0 3px;
     margin: 5px 5px 5px 5px;
-    font-size: 20px;
     font-weight: 550;
     color: #3a7372;
     border-radius: 8px;
@@ -20,20 +60,17 @@ body {
     outline: none;
 }
 .btn-custom {
-    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 450;
     color: #3a7372;
     background-color: #61C0BF;
     border: none;
     outline: none !important;
-    height: 40px;
     margin: 6px 3px 10px 3px;
 }
 .btn-custom:hover {
     background-color: #61C0BF;
     color: #FAE3D9;
-
 }
 .btn-custom:active {
     background-color: #61C0BF;
@@ -49,7 +86,6 @@ body {
 }
 li{
     font-family: 'Poppins', sans-serif;
-    font-size:20px;
     font-weight: 450;
     color: #3a7372;
     background-color: #BBDED6;

@@ -15,6 +15,7 @@ $(document).ready(function() {
                     $("#result-list").append("<li><a href=" +content[3][a]+ " target='_blank'>" + content[1][a] +"</a><p>"+ "Description unavailable");
                 }
             };
+            $('#body-box').css({'margin-top':'15px'});
         });
     });
 
